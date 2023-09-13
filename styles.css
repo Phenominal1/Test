@@ -191,7 +191,7 @@ a{
 
 
 
-@media (max-width:768px){
+@media screen and (max-width:768px){
 
 
     #head{
@@ -204,7 +204,9 @@ a{
     }
 
     #uperButton{
-            width: 35vw;
+            width: 30vw;
+            height: auto;
+        
     }
     
     .mid-contant{
@@ -406,13 +408,4 @@ a{
     #copyright{
         font-size: .6rem;
     }
-}
-
-
-@media  screen and (max-width:1024) {
-  #head{
-    color: coral;
-  }
-
-
 }
