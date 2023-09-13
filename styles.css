@@ -33,7 +33,7 @@ body{
     background-color: #c5c6d0;
     opacity: 85%;
     width: 100%;
-    height: 18vh;
+    height: auto;
     text-align: center;
     color: dodgerblue;
     font-size: 3rem;
@@ -196,11 +196,12 @@ a{
 
     #head{
         font-size: 2.5rem;
+        height: auto;
     }
 
     #des1{
         width: 90%;
-        height: 11vh;
+        height: auto;
     }
 
     #uperButton{
@@ -221,7 +222,7 @@ a{
 
     #des2{
         font-size: 1.2rem;
-        width: 90%;
+        width: 100%;
         padding: 0 !important;
     }
 
@@ -231,7 +232,7 @@ a{
     }
 
     .sel1{
-        height: 65vw;
+        height: auto;
     }
 }
 
@@ -283,7 +284,6 @@ a{
     
     #uperButton{
         margin-top: 3rem;
-        background-color: rgb(19, 206, 78);
         width: 35vw;
         height: 6vh;
         padding: .7rem;
@@ -319,7 +319,7 @@ a{
     
     #des2{
         color: coral;
-        width: 95%;
+        width: 100%;
         margin-top: 2rem;
         font-size: .7rem;
         font-weight: 600;
@@ -333,7 +333,6 @@ a{
     
     .btn{
         margin-top: 2rem;
-        background-color: rgb(19, 206, 78);
         width: 45vw;
         height: 6vh;
         padding: .7rem;
