@@ -221,12 +221,13 @@ a{
 
     #des2{
         font-size: 1.2rem;
-        width: 80%;
+        width: 90%;
         padding: 0 !important;
     }
 
     .btn{
         width: 30vw;
+        height: auto;
     }
 
     .sel1{
