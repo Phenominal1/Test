@@ -133,7 +133,7 @@ body{
     height: 63vh;
     width: 60vw;
     padding: 2rem;
-    opacity: 90%;
+    opacity: 96%;
 }
 
 #head3{
@@ -147,7 +147,7 @@ body{
     font-size: 1.2rem;
     font-weight: 600;
     text-align: justify;
-    color: coral;
+    color: white;
 }
 
 
@@ -315,7 +315,7 @@ a{
         padding: .7rem;
         background-color: #c5c6d0;
         opacity: 85%;
-    
+        height: 40vh;
     }
     
     .con1{
@@ -329,7 +329,7 @@ a{
     #head2{
         
         color: dodgerblue;
-        font-size: 1.4rem;
+        font-size: 1.3rem;
     }
 
     #des2{
@@ -352,7 +352,7 @@ a{
         padding: .7rem;
         text-align: center;
         border-radius: 10px;
-        font-size: .6rem;
+        font-size: .7rem;
         font-weight: 600;
         color: white;
     }
@@ -375,7 +375,7 @@ a{
         height: auto;
         width: 90vw;
         padding: 1.5rem;
-        opacity: 90%;
+        opacity: 95%;
     }
     
     #head3{
@@ -389,7 +389,7 @@ a{
         font-size: .9rem;
         font-weight: 600;
         text-align: justify;
-        color: coral;
+        
     }
 
     .footer{
