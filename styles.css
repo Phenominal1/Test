@@ -1,0 +1,418 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Red Hat Text', sans-serif;
+}
+
+.container{
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url(/img/finalpic1.jpg);
+    background-size: cover;
+    background-position: center;
+
+    background-attachment: fixed;
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#head{
+    background-color: #c5c6d0;
+    opacity: 85%;
+    width: 100%;
+    height: 18vh;
+    text-align: center;
+    color: dodgerblue;
+    font-size: 3rem;
+}
+
+#des1{
+    width: 60%;
+    padding: .5rem;
+    background-color: #c9c9c9;
+    margin-top: 2rem;
+    color: coral;
+    font-size: 1.2rem;
+    font-weight: 600;
+    height: 9vh;
+    text-align: center;
+    opacity: 90%;
+}
+
+#uperButton{
+    margin-top: 3rem;
+    background-color: #E9BE2C;
+    width: 13vw;
+    height: 6vh;
+    padding: .7rem;
+    text-align: center;
+    border-radius: 10px;
+    font-size: 1rem;
+    font-weight: 600;
+    color: white;
+}
+
+.mid-contant{
+    display: flex;
+    min-height: 60vh;
+    padding: 2rem;
+    background-color: #c5c6d0;
+    opacity: 85%;
+
+}
+
+.con1{
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    justify-content: center;
+    align-items: center;
+}
+
+#head2{
+    color: dodgerblue;
+    font-size: 3rem;
+}
+
+#des2{
+    color: coral;
+    width: 90%;
+    
+    margin-top: 2rem;
+    font-size: 1.8rem;
+    font-weight: 600;
+    text-align: center;
+}
+
+.pic1{
+    width: 30vw ;
+ 
+}
+
+.btn{
+    margin-top: 3rem;
+    background-color: #E9BE2C;
+    width: 13vw;
+    height: 6vh;
+    padding: .7rem;
+    text-align: center;
+    border-radius: 10px;
+    font-size: 1rem;
+    font-weight: 600;
+    color: white;
+}
+
+.Sellercontainer{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 1000px;
+    background-image: url(/img/finalpic2.jpg);
+    justify-content: center;
+    align-items: center;
+    background-position: center;
+    background-attachment: fixed;   
+
+}
+
+.sel1{
+    background-color:#c5c6d0;
+    height: 63vh;
+    width: 60vw;
+    padding: 2rem;
+    opacity: 90%;
+}
+
+#head3{
+    font-size: 3rem;
+    color: dodgerblue;
+    font-weight: 600;
+}
+
+#des3{
+    margin-top: 3rem;
+    font-size: 1.2rem;
+    font-weight: 600;
+    text-align: justify;
+    color: coral;
+}
+
+
+.footer{
+    display:flex ;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 10vh;
+    gap:1rem;
+    background-color: #c5c6d0;
+    opacity: 90%;
+}
+
+.foot{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    font-weight: 600;
+    
+}
+
+.foot > a{
+    color: coral;
+}
+
+
+#copyright{
+    color: coral;
+    font-weight: 600;
+}
+
+
+a{
+    text-decoration: none;
+    color: black;
+    width: 15vw;
+}
+
+
+
+@media (max-width:768px){
+
+
+    #head{
+        font-size: 2.5rem;
+    }
+
+    #des1{
+        width: 90%;
+        height: 11vh;
+    }
+
+    #uperButton{
+            width: 35vw;
+    }
+    
+    .mid-contant{
+        gap: 3rem;
+    }
+
+
+    #head2{
+        font-size: 2rem;
+        
+    }
+
+    #des2{
+        font-size: 1.2rem;
+        width: 80%;
+        padding: 0 !important;
+    }
+
+    .btn{
+        width: 30vw;
+    }
+
+    .sel1{
+        height: 65vw;
+    }
+}
+
+@media screen and (max-width:426px) {
+
+    .container{
+        display: flex;
+        width: 100%;
+        height: 100vh;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-image: url(/img/finalpic1.jpg);
+        background-size: cover;
+        background-position: center;
+    
+        background-attachment: fixed;
+    }
+
+    .content{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #head{
+        background-color: #c5c6d0;
+        opacity: 85%;
+        width: 100%;
+        height: 22vh;
+        text-align: center;
+        color: dodgerblue;
+        font-size: 1.8rem;
+    }
+
+    #des1{
+        width: 100%;
+        padding: .5rem;
+        background-color: #c9c9c9;
+        margin-top: 2rem;
+        color: coral;
+        font-size: .9rem;
+        font-weight: 600;
+        height: 12vh;
+        text-align: center;
+        opacity: 90%;
+    }
+    
+    #uperButton{
+        margin-top: 3rem;
+        background-color: rgb(19, 206, 78);
+        width: 35vw;
+        height: 6vh;
+        padding: .7rem;
+        text-align: center;
+        border-radius: 10px;
+        font-size: 1rem;
+        font-weight: 600;
+        color: white;
+    }
+
+
+    .mid-contant{
+        display: flex;
+        min-height: 40vh;
+        padding: .8rem;
+        background-color: #c5c6d0;
+        opacity: 85%;
+    
+    }
+    
+    .con1{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        justify-content: flex-start;
+        align-items: flex-start;
+    }
+    
+    #head2{
+        color: dodgerblue;
+        font-size: 1.3rem;
+    }
+    
+    #des2{
+        color: coral;
+        width: 95%;
+        margin-top: 2rem;
+        font-size: .7rem;
+        font-weight: 600;
+        text-align: center;
+    }
+    
+    .pic1{
+        width: 25vw ;
+        height: 30vh;
+    }
+    
+    .btn{
+        margin-top: 2rem;
+        background-color: rgb(19, 206, 78);
+        width: 45vw;
+        height: 6vh;
+        padding: .7rem;
+        text-align: center;
+        border-radius: 10px;
+        font-size: 1rem;
+        font-weight: 600;
+        color: white;
+    }
+
+    .Sellercontainer{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: 1000px;
+        background-image: url(/img/finalpic2.jpg);
+        justify-content: center;
+        align-items: center;
+        background-position: center;
+        background-attachment: fixed;   
+    
+    }
+    
+    .sel1{
+        background-color:#c5c6d0;
+        height: 64vh;
+        width: 90vw;
+        padding: 1.5rem;
+        opacity: 90%;
+    }
+    
+    #head3{
+        font-size: 2rem;
+        color: dodgerblue;
+        font-weight: 600;
+    }
+    
+    #des3{
+        margin-top: 2rem;
+        font-size: .9rem;
+        font-weight: 600;
+        text-align: justify;
+        color: coral;
+    }
+
+    .footer{
+        display:flex ;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        min-height: 10vh;
+        gap:1rem;
+        background-color: #c5c6d0;
+        opacity: 90%;
+    }
+    
+    .foot{
+        display: flex;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+        gap: 1rem;
+        font-weight: 600;
+        
+    }
+
+    .foot > a{
+        font-size: .7rem;
+        width: 60vw;
+        margin-left: .7rem;
+    }
+
+    #copyright{
+        font-size: .6rem;
+    }
+}
+
+
+@media  screen and (max-width:1024) {
+  #head{
+    color: coral;
+  }
+
+
+}
