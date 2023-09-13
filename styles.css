@@ -238,7 +238,11 @@ a{
     .foot > a{
         font-size: .7rem;
         width: 60vw;
-        margin-left: .7rem;
+        margin-left: .9rem;
+    }
+
+    #copyright{
+        font-size: 0.7;
     }
 }
 
