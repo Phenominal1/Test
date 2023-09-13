@@ -164,12 +164,12 @@ body{
 
 .foot{
     display: flex;
-    width: 100%;
+    width: 60%;
     justify-content: center;
     align-items: center;
     gap: 2rem;
     font-weight: 600;
-    
+    margin-left: 6.5rem;
 }
 
 .foot > a{
@@ -189,7 +189,11 @@ a{
     width: 15vw;
 }
 
-
+.fbicon{
+    mix-blend-mode: darken; 
+    width: 2vw; 
+    height: auto;
+}
 
 @media screen and (max-width:768px){
 
@@ -295,10 +299,10 @@ a{
     #uperButton{
         margin-top: 3rem;
         width: auto;
-        height: 4vh;
-        padding: .5rem;
+        height: 5vh;
+       
         text-align: center;
-        border-radius: 10px;
+        border-radius: 9px;
         font-size: .7rem;
         font-weight: 600;
         color: white;
@@ -393,8 +397,9 @@ a{
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        min-height: 15vh;
+        min-height: 20vh;
         gap:1rem;
+        width: 100%;
         background-color: #c5c6d0;
         opacity: 90%;
     }
@@ -407,18 +412,25 @@ a{
         gap: 1rem;
         font-weight: 600;
         margin-top: 2rem;
+        margin-left: 0;
     }
 
     .foot > a{
         font-size: .6rem;
         width: 20vw;
-     
         text-align: center;
     }
 
     #copyright{
         font-size: .5rem;
         margin-bottom: 1rem;
-        margin-left:1.5rem ;
+        margin-left: 1rem;
+     
+    }
+
+    .fbicon{
+        mix-blend-mode: darken; 
+        width: 5vw; 
+        height: auto;
     }
 }
