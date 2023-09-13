@@ -299,7 +299,7 @@ a{
         padding: .7rem;
         text-align: center;
         border-radius: 10px;
-        font-size: .8rem;
+        font-size: .7rem;
         font-weight: 600;
         color: white;
     }
@@ -319,31 +319,30 @@ a{
         flex-direction: column;
         width: 100%;
         justify-content:center;
-        align-items: flex-start;
+        align-items: center;
     }
     
     #head2{
-        width: 100%;
+        
         color: dodgerblue;
-        font-size: 1rem;
+        font-size: 1.4rem;
     }
-    
+
     #des2{
         color: coral;
         width: 100%;
         margin-top: 1rem;
-        font-size: .6em;
-        font-weight: 500;
+        font-size: 1rem;
+        font-weight: 600;
         
     }
     
     .pic1{
-        width: 40% ;
-        height: 25vh;
+        display: none;
     }
     
     .btn{
-        margin-top: 2rem;
+        margin-top: 1.5rem;
         width: 30vw;
         height: auto;
         padding: .7rem;
@@ -394,7 +393,7 @@ a{
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        min-height: 10vh;
+        min-height: 15vh;
         gap:1rem;
         background-color: #c5c6d0;
         opacity: 90%;
@@ -402,21 +401,22 @@ a{
     
     .foot{
         display: flex;
-        width: 100%;
+        flex-direction: column;
         justify-content: center;
         align-items: center;
         gap: 1rem;
         font-weight: 600;
-        
+        margin-top: 2rem;
     }
 
     .foot > a{
         font-size: .5rem;
-        width: 60vw;
-        margin-left: .7rem;
+        width: 28vw;
+        margin-left: 4.8rem; 
     }
 
     #copyright{
         font-size: .5rem;
+        margin-bottom: 1rem;
     }
 }
