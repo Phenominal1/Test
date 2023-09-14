@@ -6,6 +6,9 @@
 
 body{
     font-family: 'Red Hat Text', sans-serif;
+   -webkit-user-select: none; /* Safari */
+  -ms-user-select: none; /* IE 10 and IE 11 */
+  user-select: none; /* Standard syntax */
 }
 
 .container{
@@ -27,29 +30,29 @@ body{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    background-color: #c5c6d02e;
+    opacity: 90%;
+    padding: 20px;
 }
 
 #head{
-    background-color: #c5c6d0;
-    opacity: 85%;
     width: 100%;
     height: auto;
     text-align: center;
-    color: dodgerblue;
+    color: floralwhite;
     font-size: 3rem;
 }
 
 #des1{
     width: 60%;
     padding: .5rem;
-    background-color: #c9c9c9;
     margin-top: 2rem;
-    color: coral;
+    color: floralwhite;
     font-size: 1.2rem;
     font-weight: 600;
     height: 9vh;
     text-align: center;
-    opacity: 90%;
+
 }
 
 #uperButton{
@@ -136,7 +139,7 @@ body{
     gap: 2rem;
     justify-content: center;
     align-items: center;
-     text-align: center;
+    text-align: center;
 }
 
 .section1{
@@ -204,7 +207,7 @@ body{
     width: 60vw;
     padding: 2rem;
     opacity: 96%;
-    margin-top: 8rem;
+    margin-top: 11rem;
 }
 
 #head3{
@@ -407,29 +410,24 @@ a{
         flex-direction: column;
         justify-content: center;
         align-items: center;
+      
     }
 
     #head{
-        background-color: #c5c6d0;
-        opacity: 85%;
+       
         width: 100%;
         height: auto;
         text-align: center;
-        color: dodgerblue;
         font-size: 1.8rem;
     }
 
     #des1{
         width: 100%;
-        padding: .5rem;
-        background-color: #c9c9c9;
         margin-top: 2rem;
-        color: coral;
         font-size: .9rem;
         font-weight: 600;
         height: auto;
         text-align: center;
-        opacity: 90%;
     }
     
     #uperButton{
@@ -508,14 +506,16 @@ a{
 
     .cards{
         gap: .8rem;
+        flex-direction: column;
     }
 
     .section1{
         background-color: #c5c6d0;
-        width: 47vw;
-        height: 40vh;
+        width: 50vw;
+        height: auto;
         opacity: 90%;
         border-radius: 45px;
+    margin-top: 8rem;
     }
 
 
@@ -542,8 +542,8 @@ a{
     
     .section2{
         background-color: #c5c6d0;
-        width: 47vw;
-        height: 40vh;
+        width: 50vw;
+        height: auto;
         opacity: 90%;
         border-radius: 45px;
     }
@@ -575,6 +575,7 @@ a{
         width: 90vw;
         padding: 1.5rem;
         opacity: 95%;
+        margin-top: 14rem;
     }
     
     #head3{
