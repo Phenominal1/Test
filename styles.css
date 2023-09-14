@@ -141,7 +141,7 @@ body{
 
 .section1{
     background-color: #c5c6d0;
-    width: 22vw;
+    width: 27vw;
     height: 47vh;
     opacity: 90%;
     border-radius: 5px;
@@ -171,7 +171,7 @@ body{
 
 .section2{
     background-color: #c5c6d0;
-    width: 22vw;
+    width: 27vw;
     height: 47vh;
     opacity: 90%;
     border-radius: 5px;
@@ -324,7 +324,7 @@ a{
     
     #sub1{
         margin-top: 1rem;
-        font-size: 1.3rem;
+        font-size: 1.4rem;
         color: dodgerblue;
     }
     
@@ -352,7 +352,7 @@ a{
     }
     
     #sub2{
-        font-size: 1.3rem;
+        font-size: 1.4rem;
         margin-top: 1rem;
         color: dodgerblue;
     }
