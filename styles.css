@@ -141,10 +141,10 @@ body{
 
 .section1{
     background-color: #c5c6d0;
-    width: 27vw;
+    width: 30vw;
     height: 47vh;
     opacity: 90%;
-    border-radius: 5px;
+    border-radius: 45px;
     
 }
 
@@ -171,10 +171,10 @@ body{
 
 .section2{
     background-color: #c5c6d0;
-    width: 27vw;
+    width: 30vw;
     height: 47vh;
     opacity: 90%;
-    border-radius: 5px;
+    border-radius: 45px;
 }
 
 .sec2Img{
@@ -305,7 +305,9 @@ a{
         width: 30vw;
         height: auto;
     }
-
+    .cards{
+        gap:.7rem
+    }
     .section1{
         background-color: #c5c6d0;
         width: 47vw;
