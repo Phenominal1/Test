@@ -4,45 +4,64 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>nTiffinHub</title>
-    <link rel="stylesheet" href="styles.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+      theme: {
+      
+        extend: {
+          screens:{
+            sm: {'min':'320px','max':'567px'},
+          },
+          colors: {
+            content: '#c5c6d02e',
+            con: '#fffaf0',
+            btncolor:'#E9BE2C',
+            bgcolor:'#c5c6d0',
+          }
+        }
+      }
+    }
+    </script>
+
 </head>
 <body>
-        <div class="container">
-            <div class="content">
-            <h1 id="head">Feeling exhausted from searching for      budget - friendly food options?</h1>
-            <p id="des1">Why not place an order with TiffinHub, where you can find qualitative daily and healthy food without breaking the bank?</p>
-            <a href="https://customer.tiffinhub.in/login" id="uperButton">Try our App</a>
+        <div class="flex flex-col w-100% h-[100vh] justify-center items-center bg-[url('/img/finalpic1.jpg')] bg-fixed bg-cover bg-center">
+            <div class="flex flex-col justify-center items-center bg-content p-6 opacity-1">
+            <h1 class="w-full h-auto text-center text-white lg:text-6xl md:text-4xl text-2xl font-bold">Feeling exhausted from searching for      budget - friendly food options?</h1>
+            <p class="w-[90%] text-white font-semibold text-center mt-8 lg:text-xl md:text-lg text-md">Why not place an order with TiffinHub, where you can find qualitative daily and healthy food without breaking the bank?</p>
+            <a href="https://customer.tiffinhub.in/login" class="mt-6 bg-btncolor lg:w-[15vw] h-[5vh] md:w-[20vw] w-[35vw] text-white text-sm text-center p-1.5 rounded-lg font-semibold">Try our App</a>
             </div>
         </div>
 
-        <div class="mid-contant">
-          <div class="con1">
-            <h2 id="head2"> Let's walk together with Tiffinhub</h2>
-            <p id="des2">Add your Tiffin Service with us <br>
+        <div class="flex justify-around min-h-auto p-3 bg-content opacity-90 gap-10">
+          <div class="flex flex-col justify-center items-center">
+            <h2 class="text-blue-500 lg:text-4xl md:text-2xl text-2xl font-semibold  "> Let's walk together with Tiffinhub</h2>
+            <p class="text-orange-500 w-full mt-4 lg:text-2xl md:xl text-lg font-semibold text-center">Add your Tiffin Service with us <br>
               and<br>
               Reach out to the near by customers.</p>
-            <a href="#" class="btn">Register Shop</a>
+            <a href="#" class="mt-6 bg-btncolor rounded-lg text-center p-2 text-white font-semibold w-[40vw]  lg:w-[13vw] h-[3vh] md:w-[15vw] h-[6vh] text-sm">Register Shop</a>
           </div>
-            <img src="/img/Group 1.png" alt="grp1" class="pic1">
+            <img src="/img/Group 1.png" alt="grp1" class="lg:w-[30vw] md:w-[35vw] sm:hidden">
         </div>
 
        
 
-        <div class="Sellercontainer">
+        <div class="flex flex-col w-[100%] lg:h-[1300px] md:h-[1400px] h-[1300px] bg-[url('/img/finalpic2.jpg')] justify-around text-center bg-center bg-fixed bg-cover">
 
-          <div class="cards">
+          <div class="w-full h-[50vh] flex sm:flex-col gap-2 lg:gap-24 md:gap-6 justify-center items-center text-center ">
           
-            <div class="section1">
-              <img src="/img/sec1.jpg" alt="sec1" class="sec1Img">
-              <h2 id="sub1">For Hungry Souls</h2>
-              <p id="con1">Browse, order, and enjoy delicious home-cooked meals delivered right to your doorstep. Our platform makes it easy to find the perfect tiffin service near you. Simply enter your location, explore the options, and order with just a few clicks.</p>
+            <div class="bg-gray-400 lg:w-[30vw] md:w-[45vw] h-[55vh] rounded-xl sm:w-[75vw] opacity-[90%] height-auto">
+              <img src="/img/sec1.jpg" alt="sec1" class="rounded-full mt-4 w-[15vw] h-auto lg:h-[15vh] w-[8vw] md:h-[13vh] sm:w-[10vw] h-[7vh] text-center mx-auto">
+              <h2 class="text-blue-500 text-xl lg:text-2xl  font-semibold mt-4">For Hungry Souls</h2>
+              <p class="p-2 text-sm text-white">Browse, order, and enjoy delicious home-cooked meals delivered right to your doorstep. Our platform makes it easy to find the perfect tiffin service near you. Simply enter your location, explore the options, and order with just a few clicks.</p>
             </div>
   
-            <div class="section2">
-              <img src="/img/sec2.jpg" alt="sec2" class="sec2Img">
-              <h2 id="sub2">For Tiffin Service Providers</h2>
-              <p id="con2">Are you a tiffin service provider looking to expand your business? Join TiffinHub and tap into a ready-to-order customer base. We provide you with the tools and visibility needed to boost your revenue.</p>
+            <div class="bg-gray-400 lg:w-[30vw] md:w-[45vw]  h-[55vh] sm:w-[75vw] rounded-xl opacity-[90%]">
+              <img src="/img/sec2.jpg" alt="sec2" class="rounded-full w-[15vw] h-[9vh] lg:h-[15vh] w-[8vw] md:h-[13vh] text-center sm:w-[10vw] h-[7vh] mx-auto mt-4">
+              <h2 class="text-blue-500 text-xl lg:text-2xl font-semibold mt-4">For Tiffin Service Providers</h2>
+              <p class="p-2 text-sm text-white">Are you a tiffin service provider looking to expand your business? Join TiffinHub and tap into a ready-to-order customer base. We provide you with the tools and visibility needed to boost your revenue.</p>
             </div>
   
           </div>
@@ -51,20 +70,20 @@
 
 
 
-          <div class="sel1">
-            <p id="head3">About Us</p>
-            <p id="des3">This is a web-based platform where small tiffin service providers from all across India can register their tiffin businesses. Users can log in to this platform to place orders for single-meal tiffins and also purchase subscriptions that extend beyond a single day. This platform streamlines the unorganised tiffin service industry, serving as a centralised hub where customers can access a variety of tiffin food options. Customers can make informed choices based on feedback and reviews when selecting a tiffin service.</p>
+          <div class="bg-gray-400 h-auto w-[75vw] mx-auto">
+            <p class="text-blue-500 text-4xl font-semibold mt-2 mb-4">About Us</p>
+            <p class="text-white text-md font-semibold text-center mb-4">This is a web-based platform where small tiffin service providers from all across India can register their tiffin businesses. Users can log in to this platform to place orders for single-meal tiffins and also purchase subscriptions that extend beyond a single day. This platform streamlines the unorganised tiffin service industry, serving as a centralised hub where customers can access a variety of tiffin food options. Customers can make informed choices based on feedback and reviews when selecting a tiffin service.</p>
           </div>
         </div>
 
-        <div class="footer">
-          <div class="foot">
+        <div class="flex flex-col justify-center items-center gap-2">
+          <div class="flex sm:flex-col sm:gap-1 w-[80%] justify-center items-center ml-8 text-orange-500 lg:text-md md:text-sm text-sm lg:gap-20 md:gap-20 font-semibold">
             <a href="#">Privacy Policy</a>
             <a href="#">About Us</a>
             <a href="#">T&C</a>
-            <a href="#"><img src="./img/fbicon.avif" alt="fb" class="fbicon"></a>
+            <a href="#"><img src="./img/fbicon.avif" alt="fb" class="mix-blend-darken lg:w-[2vw] md:w-[2vw] sm:w-[4vw]"></a>
           </div>  
-          <p id="copyright">All Right Reserved <sup>&#169;</sup></p>
+          <p class="text-orange-600 font-semibold text-xs ml-10">All Right Reserved <sup>&#169;</sup></p>
         </div>
 </body>
 </html>
